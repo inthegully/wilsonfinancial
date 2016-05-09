@@ -1,0 +1,470 @@
+html {
+  font-size: 16px;
+}
+
+/*Mobile Screen*/
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 62.5%;
+}
+header {
+  background-color: rgba(226, 226, 226, .9);
+  width: 100%;
+  padding-bottom: 2%;
+  font-family: "Arial Black", sans-serif;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+}
+nav {
+  text-align: center;
+  padding-top: 2%;
+}
+.dropbtn {
+  color: #5c5c5c;
+  margin: 3%;
+  font-size: 2.5em;
+  padding: 1% 4% 1% 4%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(226, 226, 226, .9);
+}
+.dropdown-content li {
+  display: block;
+  padding: 2%;
+  border-bottom: 1px solid grey;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: none;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  font-size: 1.5em;
+}
+nav li:last-child {
+  color: #656565;
+  border-bottom: none;
+  display: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #656565;
+}
+.nav-link:hover {
+  color: black;
+}
+.text-on-handshake {
+  text-align: center;
+  padding: 10% 3% 0 3%;
+  font-family: "Arial Black", sans-serif;
+  text-transform: uppercase;
+  color: #5c5c5c;
+}
+h1 {
+  margin: 0;
+  line-height: 1.1;
+  font-size: 3em;
+}
+h3 {
+  margin: 0;
+  font-size: 2em;
+}
+.free-consult-button {
+  margin: 30px;
+  text-align: center;
+}
+main {
+  background: url("../images/pw_maze_white.png") repeat center;
+  width: 100%;
+}
+.column-pic {
+  max-width: 100%;
+}
+.column-link {
+  text-decoration: none;
+  color: grey;
+  transition: color .2s ease;
+}
+.column-link:hover {
+  color: black;
+}
+.column {
+  max-width: 80%;
+  display: inline-block;
+  padding: 4%;
+  text-align: left;
+  font-size: 1.4em;
+  color: #5c5c5c;
+}
+.column-section {
+  text-align: center;
+}
+.continuation {
+  background: url("../images/entrepreneur-593361_1920.jpg") no-repeat center;
+}
+.color-overlay {
+  background-color: rgba(44, 43, 71, .8);
+}
+.continuation-box {
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.8em;
+}
+.code-of-ethics {
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+h2 {
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2.777778em;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+.logos ul {
+  text-align: center;
+  position: relative;
+  top: .75em;
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 2.5%;
+}
+.logos li {
+  display: inline;
+  padding: 2%;
+}
+.logo-image {
+  width: 20%;
+}
+footer {
+  background-color: rgba(180, 183, 197, 1);
+  height: 20%;
+  text-align: center;
+  clear: both;
+}
+.footer-column {
+  padding-top: 3%;
+  font-family: "Arial Black", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+.footer-column i {
+  font-size: 1.333333333em;
+  padding-bottom: 2%;
+}
+.copyright {
+  padding: 10px;
+  font-size: 1.2em;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*Tablet Screen*/
+
+@media (min-width: 629px) {
+  header {
+    padding: 2%;
+    max-width: 96%;
+    z-index: 10;
+    position: fixed;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .dropdown-content {
+    display: inline;
+    position: relative;
+    box-shadow: none;
+  }
+  nav {
+    overflow: auto;
+    display: inline;
+  }
+  .dropdown-content ul {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2%;
+    width: 96%;
+  }
+  .dropdown-content li {
+    padding-right: 4%;
+    display: inline;
+    font-size: 1.2em;
+    border-bottom: none;
+  }
+  .dropdown-content li:last-child {
+    padding-right: 0;
+    display: inline;
+  }
+  .dropdown-content li:first-child {
+    padding-left: 0;
+  }
+  .nav-link {
+    transition: color .5s ease;
+  }
+  .home-wrapper {
+    width: 100%;
+  }
+  .handshake {
+    background: white url("../images/hands.png") no-repeat center;
+    background-size: cover;
+    height: 400px;
+  }
+  .text-on-handshake {
+    width: 600px;
+    margin: auto;
+    padding-top: 150px;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  .column {
+    width: 25%;
+    display: inline-block;
+    padding: 4%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1.4em;
+    color: #5c5c5c;
+  }
+  .continuation {
+    height: 40%;
+    width: 100%;
+  }
+  .continuation-box {
+    width: 100%;
+  }
+  .code-of-ethics {
+    width: 20%;
+    padding-bottom: 3%
+  }
+  .footer-column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
+}
+@media (min-width: 745px) {
+  .dropdown-content li {
+    font-size: 1.4em;
+  }
+}
+
+/*Computer Screen*/
+
+@media (min-width: 1056px) {
+  .wfa-logo {
+    display: inline;
+    float: left;
+  }
+  .dropdown {
+    display: inline;
+    position: relative;
+    top: 15px;
+  }
+  .dropdown-content {
+    background: none;
+  }
+  .dropdown-content ul {
+    display: inline
+  }
+  .dropdown-content li {
+    padding-right: 4%;
+    font-size: 1.4em;
+    border-bottom: none;
+  }
+  .dropdown-content li:first-child {
+    padding-left: 4%;
+  }
+  .logos img {
+    width: 10%;
+  }
+  .column {
+    padding: 4% 2%;
+  }
+  .continuation-box {
+    max-width: 75%;
+  }
+  .code-of-ethics {
+    width: 30%;
+  }
+}
+
+/*Contact Page*/
+
+
+/*Mobile Screen*/
+
+.contact-us {
+  background: url("../images/shattered.png") repeat center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  padding: 8% 0 7% 0;
+  font-family: "Arial Black", sans-serif;
+  color: #2C2B47;
+}
+.contact-info {
+  width: 100%;
+}
+.contact-sidebar {
+  width: 80%;
+  color: #515050;
+  margin: 0 auto;
+}
+.underline {
+  font-size: 2.6em;
+  border-bottom: 3px solid #515050;
+  width: 3.75em;
+  padding-bottom: .3em;
+}
+.phone-number {
+  font-size: 2em;
+  font-weight: bold;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+form {
+  width: 90%;
+  padding: 4%;
+  padding-top: 10%;
+}
+label, input, textarea {
+  display: block;
+}
+label {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: grey;
+}
+input {
+  width: 100%;
+  margin-bottom: 2em;
+  border: none;
+  box-shadow: inset .5px 2px 5px .75px #C9C7C7;
+  padding: 5px 0 0 5px;
+}
+input[type=submit] {
+  width: 8em;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  background-color: #79B7DD;
+  color: white;
+  border: none;
+  box-shadow: none;
+  padding: 5px;
+  margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 25px;
+  border: none;
+  box-shadow: inset .5px 2px 5px .75px #C9C7C7;
+}
+form p {
+  color: #515050;
+  margin-bottom: 35px;
+}
+
+/*Tablet Screen*/
+
+@media (min-width: 629px) {
+  .contact-us {
+    padding: 20% 0 5% 0;
+  }
+  .contact-sidebar {
+    width: 40%;
+    padding-top: 1.5%;
+    float: left;
+    padding-left: 5%;
+  }
+  form {
+    width: 40%;
+    float: right;
+    padding-top: 5.5%;
+    margin-left: 5%;
+    padding-right: 5%;
+  }
+  .logos {
+    clear: both;
+    padding-top: .75%;
+  }
+}
+
+/*Computer Screen*/
+
+@media (min-width: 1056px) {
+  .contact-us {
+    padding: 12% 0 5% 0;
+    font-size: 4em;
+  }
+  .contact-sidebar {
+    width: 35%;
+    padding-top: 2.5%;
+  }
+}
+
+/*About Page*/
+
+
+/*Mobile Screen*/
+
+.book {
+  background: url("../images/book-692575_1920.jpg") no-repeat center;
+  max-width: 100%;
+  padding: 10% 10% 15% 10%;
+}
+.text-on-book {
+  text-align: center;
+  color: #3c3c3c;
+  font-family: "Arial-Black", sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+/*Tablet Screen*/
+
+@media (min-width: 629px) {
+  .book {
+    padding-top: 20%;
+  }
+}
+
+/*Computer Screen*/
+
+@media (min-width: 1056px) {
+  .book {
+    max-width: 100%;
+    padding: 12% 0 12% 0;
+  }
+  .text-on-book h1 {
+    text-align: center;
+  }
+}
+
+/*Newsletter Page*/
+
+.newsletter {}
